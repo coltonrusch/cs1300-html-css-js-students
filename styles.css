@@ -4,4 +4,18 @@
 
 .gallery-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.gallery-item {
+  flex: 1 1 200px;
+  margin: 10px;
+  border: 10px solid black;
+  padding: 10px;
+  filter: sepia(100%);
+  float: left;
+  width:  10rem;
+  height: 10rem;
+  object-fit: cover;
 }
