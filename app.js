@@ -36,6 +36,22 @@ const apiRequest = async () => {
 }
 
 const updatePage = async () => {
+  /*
+  ____  ___  ____    ____    ___     _______   _____ _   _ _____
+ / ___|/ _ \|  _ \  / ___|  / \ \   / / ____| |_   _| | | | ____|
+| |  _| | | | | | | \___ \ / _ \ \ / /|  _|     | | | |_| |  _|
+| |_| | |_| | |_| |  ___) / ___ \ V / | |___    | | |  _  | |___
+ \____|\___/|____/  |____/_/   \_\_/  |_____|   |_| |_| |_|_____|
+
+  ___  _   _ _____ _____ _   _
+ / _ \| | | | ____| ____| \ | |
+| | | | | | |  _| |  _| |  \| |
+| |_| | |_| | |___| |___| |\  |
+ \__\_\\___/|_____|_____|_| \_|
+  */
+  var audio = new Audio('./assets/sound.mp3');
+  audio.play();
+
   const gallery = document.getElementById('cs1300-gallery');
 
   // Make API request and get an array of fruit objects
